@@ -99,7 +99,7 @@
     nerd-fonts.hack
     nerd-fonts.jetbrains-mono
     nerd-fonts.noto
-    nerd-fonts.source-code-pro
+    nerd-fonts.sauce-code-pro
     nerd-fonts.roboto-mono
     nerd-fonts.terminess-ttf
     nerd-fonts.ubuntu
