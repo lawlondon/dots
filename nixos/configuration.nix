@@ -110,7 +110,6 @@
     noto-fonts
     texlivePackages.collection-fontsrecommended
     winePackages.fonts
-    typodermic-free-fonts
     texlivePackages.collection-fontsextra
     open-sans
   ];
