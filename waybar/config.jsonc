@@ -1,0 +1,71 @@
+// -*- mode: jsonc -*-
+{
+  "layer": "top",
+  "position": "top",
+  "height": 24, // Waybar height (to be removed for auto height)
+  "spacing": 4, // Gaps between modules (4px)
+  // Choose the order of the modules
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+    // "memory",
+    // "gamemode",
+    // "pulseaudio",
+    // "tray"
+    // "cpu",
+    // "memory",
+    // "network",
+    "cpu",
+    "pulseaudio",
+    "tray",
+    "clock",
+  ],
+
+  "wlr/taskbar": {
+    "format": "{icon} ",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "on-click-right": "minimize",
+    "icon-size": 14,
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}: {windows}",
+    "format-window-separator": " ",
+    "workspace-taskbar": {
+      "enable": true,
+      "update-active-window": true,
+      "format": "{icon} ",
+      "icon-size": 14,
+      "on-click-window": "hyprctl dispatch focuswindow address:{address}",
+    },
+  },
+
+  "clock": {
+    "format": "{:%A, %B %d | %I:%M %p}",
+  },
+
+  "tray": {
+    "icon-size": 14,
+    "show-passive-items": true,
+    "spacing": 5,
+  },
+
+  "cpu": {
+    "format": "CPU: {usage}% USAGE, LOAD {load} |",
+  },
+
+  "memory": {
+    "format": "RAM: {used}GiB USED ({percentage}%) |",
+  },
+
+  "network": {
+    "interval": 1,
+    "format": "NETWORK: {bandwidthDownBits} DOWN, {bandwidthUpBits} UP |",
+  },
+
+  "pulseaudio": {
+    "format": "VOLUME: {volume}% -",
+    "max-volume": 150,
+  },
+}
