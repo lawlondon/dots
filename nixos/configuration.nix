@@ -92,10 +92,16 @@
   fonts.fontconfig.subpixel.rgba = "rgb";
 
   fonts.packages = with pkgs; [
-    nerd-fonts.jetbrains-mono
+    nerdfonts
     corefonts
+    vista-fonts
     liberation_ttf
     noto-fonts
+    texlivePackages.collection-fontsrecommended
+    winePackages.fonts
+    typodermic-free-fonts
+    texlivePackages.collection-fontsextra
+    open-sans
   ];
 
   system.stateVersion = "25.05"; # Don't touch this line
