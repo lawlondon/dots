@@ -92,7 +92,18 @@
   fonts.fontconfig.subpixel.rgba = "rgb";
 
   fonts.packages = with pkgs; [
-    nerdfonts
+    nerd-fonts.adwaita-mono
+    nerd-fonts.code-new-roman
+    nerd-fonts.cousine
+    nerd-fonts.fira-code
+    nerd-fonts.hack
+    nerd-fonts.jetbrains-mono
+    nerd-fonts.noto
+    nerd-fonts.source-code-pro
+    nerd-fonts.roboto-mono
+    nerd-fonts.terminess-ttf
+    nerd-fonts.ubuntu
+    nerd-fonts.zed-mono
     corefonts
     vista-fonts
     liberation_ttf
