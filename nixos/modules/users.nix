@@ -37,6 +37,7 @@
       ripgrep
       apple-cursor
       resources
+      libreoffice-fresh
     ];
   };
 
