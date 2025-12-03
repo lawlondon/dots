@@ -5,7 +5,7 @@ font_family      family='JetBrainsMono Nerd Font' postscript_name=JetBrainsMonoN
 bold_font        family='JetBrainsMono Nerd Font' style=SemiBold
 italic_font      auto
 bold_italic_font auto
-font_size 13.0
+font_size 12.0
 # END_KITTY_FONTS
 
 #: Fonts {{{
@@ -2958,3 +2958,9 @@ font_size 13.0
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_THEME
+# Cherry
+include current-theme.conf
+# END_KITTY_THEME
