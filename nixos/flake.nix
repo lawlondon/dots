@@ -25,7 +25,7 @@
           modules = [
             ./configuration.nix
             chaotic.nixosModules.default
-	    nixvim.nixosModules.nixvim
+	          nixvim.nixosModules.nixvim
           ];
         };
       };

@@ -6,6 +6,7 @@
     ./hardware-configuration.nix
     ./modules/desktop.nix
     ./modules/users.nix
+    ./modules.packages.nix
     ./modules/gaming.nix
     ./modules/drives.nix
   ];
@@ -15,7 +16,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # kernel
-  boot.kernelPackages = pkgs.linuxPackages_cachyos-lto;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   services.scx = {
     enable = true;
@@ -114,6 +115,6 @@
     open-sans
   ];
 
-  system.stateVersion = "25.05"; # Don't touch this line
+  system.stateVersion = "25.11"; # Don't touch this line
 
 }

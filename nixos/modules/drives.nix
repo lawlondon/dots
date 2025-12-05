@@ -9,7 +9,7 @@
   };
 
   fileSystems."sata" = {
-    device = "/dev/disk/by-uuid/e3b0d763-e665-4698-9210-7a0aa266267c";
+    device = "/dev/disk/by-uuid/4eefd4f3-2307-411e-a6c9-8b5abd789831";
     mountPoint = "/home/london/drives/sata";
     fsType = "ext4";
     options = [ "nofail" ];

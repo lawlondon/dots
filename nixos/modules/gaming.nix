@@ -16,6 +16,9 @@
   environment.systemPackages = with pkgs; [
     lact
     mangohud
+    goverlay
+    lutris-unwrapped
+    heroic-unwrapped
   ];
 
   systemd.packages = with pkgs; [
