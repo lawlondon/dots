@@ -34,6 +34,11 @@
     user = "london";
   };
 
+  services.ollama = {
+    enable = true;
+    acceleration = "rocm";
+  };
+
    # programs.nixvim.enable = true;
 
 }
