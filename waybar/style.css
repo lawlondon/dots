@@ -1,7 +1,7 @@
 window#waybar {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0);
     font-family: "JetBrainsMono Nerd Font", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     padding: 0px 0px;
@@ -12,7 +12,7 @@ window#waybar {
 #workspaces {
     color: rgb(255, 255, 255);
     padding: 0px 0px;
-    margin-left: 10px;
+    margin-left: 5px;
     border: none;
 }
 
