@@ -20,6 +20,10 @@
     lutris-unwrapped
     heroic-unwrapped
     protonup-qt
+    wineWowPackages.staging
+    winetricks
+    mono
+    geckodriver
   ];
 
   systemd.packages = with pkgs; [
