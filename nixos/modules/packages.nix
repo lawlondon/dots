@@ -21,7 +21,7 @@
     fastfetch
     resources
     python3
-    discord
+    vesktop
     qbittorrent
     ungoogled-chromium
     bibata-cursors

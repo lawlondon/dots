@@ -19,6 +19,7 @@
     goverlay
     lutris-unwrapped
     heroic-unwrapped
+    protonup-qt
   ];
 
   systemd.packages = with pkgs; [
