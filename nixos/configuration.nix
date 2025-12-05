@@ -6,7 +6,7 @@
     ./hardware-configuration.nix
     ./modules/desktop.nix
     ./modules/users.nix
-    ./modules.packages.nix
+    ./modules/packages.nix
     ./modules/gaming.nix
     ./modules/drives.nix
   ];
