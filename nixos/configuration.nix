@@ -27,6 +27,8 @@
     "vm.max_map_count" = 2147483642;
   };
 
+  chaotic.hdr.enable = true;
+
   # Enable flakes
   nix.settings.experimental-features = [
     "nix-command"
