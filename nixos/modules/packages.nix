@@ -39,6 +39,8 @@
     acceleration = "rocm";
   };
 
+  services.open-webui.enable = true;
+
    # programs.nixvim.enable = true;
 
 }
