@@ -24,6 +24,8 @@
     discord
     qbittorrent
     ungoogled-chromium
+    bibata-cursors
+    bibata-cursors-translucent
   ];
 
   services.jellyfin = {
